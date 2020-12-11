@@ -1,0 +1,4 @@
+10:16:58.507 [main] DEBUG freemarker.cache - "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+10:16:58.520 [main] DEBUG freemarker.cache - "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+10:16:58.520 [main] DEBUG freemarker.cache - "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+10:16:58.855 [main] DEBUG devpinoyLogger - Test execution completed

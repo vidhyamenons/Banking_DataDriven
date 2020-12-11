@@ -1,0 +1,7 @@
+18:31:47.534 [main] DEBUG devpinoyLogger - Congfig file loaded!!
+18:31:47.547 [main] DEBUG devpinoyLogger - Object Repository file loaded!!
+18:31:54.148 [main] DEBUG devpinoyLogger - Chrome launched
+18:31:55.477 [main] DEBUG devpinoyLogger - Hitted the urlhttp://www.way2automation.com/angularjs-protractor/banking/#/login
+18:31:57.646 [main] DEBUG devpinoyLogger - Window maximized
+18:31:57.696 [main] DEBUG devpinoyLogger - Bank manager login
+18:31:57.777 [main] DEBUG devpinoyLogger - Login successfull!!!

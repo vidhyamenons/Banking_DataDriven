@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-11T10:41:09 GMT" name="Data Driven Basics" finished-at="2020-12-11T10:41:12 GMT" duration-ms="2962">
+    <groups>
+    </groups>
+    <test started-at="2020-12-11T10:41:09 GMT" name="Bank Manager Login" finished-at="2020-12-11T10:41:09 GMT" duration-ms="331">
+      <class name="testcases.BankManagerLoginTest">
+        <test-method signature="loginAsBankManager()[pri:0, instance:testcases.BankManagerLoginTest@bff34c6]" started-at="2020-12-11T10:41:09 GMT" name="loginAsBankManager" finished-at="2020-12-11T10:41:09 GMT" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- testcases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login -->
+    <test started-at="2020-12-11T10:41:10 GMT" name="Add Customer" finished-at="2020-12-11T10:41:11 GMT" duration-ms="1156">
+      <class name="testcases.AddCustomerTest">
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@3a3e4aff]" started-at="2020-12-11T10:41:10 GMT" name="addCustomerTest" data-provider="dp" finished-at="2020-12-11T10:41:10 GMT" duration-ms="741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DEF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[682020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@3a3e4aff]" started-at="2020-12-11T10:41:10 GMT" name="addCustomerTest" data-provider="dp" finished-at="2020-12-11T10:41:11 GMT" duration-ms="388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UVW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VYZ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[569936]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- testcases.AddCustomerTest -->
+    </test> <!-- Add Customer -->
+    <test started-at="2020-12-11T10:41:11 GMT" name="Open Account" finished-at="2020-12-11T10:41:12 GMT" duration-ms="688">
+      <class name="testcases.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@45e37a7e]" started-at="2020-12-11T10:40:57 GMT" name="setUp" finished-at="2020-12-11T10:41:09 GMT" duration-ms="11527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OpenAccountTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@45e37a7e]" started-at="2020-12-11T10:41:11 GMT" name="OpenAccountTest" data-provider="dp" finished-at="2020-12-11T10:41:12 GMT" duration-ms="686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC DEF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Account created successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@45e37a7e]" started-at="2020-12-11T10:41:12 GMT" name="tearDown" finished-at="2020-12-11T10:41:12 GMT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.OpenAccountTest -->
+    </test> <!-- Open Account -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>
